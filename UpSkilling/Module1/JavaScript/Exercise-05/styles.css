@@ -1,0 +1,88 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+
+    padding:40px;
+}
+
+/* Main Container */
+
+.container{
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+/* Main Heading */
+
+h1{
+
+    text-align:center;
+
+    color:#1e3a8a;
+
+    margin-bottom:30px;
+}
+
+/* Event Card */
+
+.event-card{
+
+    background-color:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Event Title */
+
+.event-card h2{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+}
+
+/* Paragraph Styling */
+
+.event-card p{
+
+    color:#444;
+
+    margin-bottom:10px;
+
+    line-height:1.7;
+}
+
+/* Availability */
+
+.available{
+
+    color:green;
+
+    font-weight:bold;
+}
+
+.not-available{
+
+    color:red;
+
+    font-weight:bold;
+}

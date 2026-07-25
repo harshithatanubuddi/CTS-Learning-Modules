@@ -1,0 +1,14 @@
+Exercise 13: Debugging and Testing
+
+Scenario:
+Registration is failing silently.
+You need to debug the issue.
+
+Objective:
+Use browser tools to inspect and fix issues.
+
+Tasks:
+- Use Chrome DevTools Console and Network tab
+- Add breakpoints and inspect variables
+- Log form submission steps
+- Check fetch request payload

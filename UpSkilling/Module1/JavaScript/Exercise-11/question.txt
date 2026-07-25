@@ -1,0 +1,14 @@
+Exercise 11: Working with Forms
+
+Scenario:
+Create a registration form for event sign-up.
+
+Objective:
+Connect form inputs to JavaScript.
+
+Tasks:
+- Capture name, email, and selected event
+  using form.elements
+- Use event.preventDefault()
+- Validate inputs
+- Show errors inline

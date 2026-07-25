@@ -1,0 +1,13 @@
+Exercise 1: JavaScript Basics & Setup
+
+Scenario:
+Set up your community portal to use JavaScript.
+
+Objective:
+Configure environment and test basic script functionality.
+
+Tasks:
+- Use <script src="main.js"></script>
+- Log "Welcome to the Community Portal"
+  using console.log()
+- Use an alert when page fully loads

@@ -1,0 +1,13 @@
+Exercise 9: Async JS, Promises, Async/Await
+
+Scenario:
+Fetch event data from a mock API.
+
+Objective:
+Use asynchronous logic for remote operations.
+
+Tasks:
+- Fetch events from mock JSON endpoint
+- Use .then() and .catch()
+- Rewrite using async/await
+- Show loading spinner

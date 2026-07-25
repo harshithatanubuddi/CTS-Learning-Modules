@@ -1,0 +1,15 @@
+Exercise 4: Functions, Scope, Closures, Higher-Order Functions
+
+Scenario:
+Create reusable functions for event operations.
+
+Objective:
+Encapsulate logic and use closures.
+
+Tasks:
+- Create:
+  addEvent()
+  registerUser()
+  filterEventsByCategory()
+- Use closure to track registrations
+- Use callback functions for dynamic filtering

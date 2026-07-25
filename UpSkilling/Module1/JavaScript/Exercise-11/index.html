@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Working with Forms</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <h1>
+            Event Registration Form
+        </h1>
+
+        <!-- Registration Form -->
+        <form id="registrationForm">
+
+            <!-- Name -->
+            <label>
+                Full Name
+            </label>
+
+            <input type="text"
+                   name="username"
+                   placeholder="Enter your name">
+
+            <small id="nameError">
+
+            </small>
+
+            <!-- Email -->
+            <label>
+                Email Address
+            </label>
+
+            <input type="email"
+                   name="email"
+                   placeholder="Enter your email">
+
+            <small id="emailError">
+
+            </small>
+
+            <!-- Event Selection -->
+            <label>
+                Select Event
+            </label>
+
+            <select name="event">
+
+                <option value="">
+                    Choose Event
+                </option>
+
+                <option value="Music Festival">
+                    Music Festival
+                </option>
+
+                <option value="Food Carnival">
+                    Food Carnival
+                </option>
+
+                <option value="Art Workshop">
+                    Art Workshop
+                </option>
+
+            </select>
+
+            <small id="eventError">
+
+            </small>
+
+            <!-- Submit Button -->
+            <button type="submit">
+
+                Register
+
+            </button>
+
+        </form>
+
+        <!-- Success Message -->
+        <div id="successMessage">
+
+        </div>
+
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>

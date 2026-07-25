@@ -1,0 +1,13 @@
+Exercise 5: Handling User Interactions
+
+Task:
+
+Create a page with:
+
+- A button with id #colorBtn
+- A div with id #colorBox
+
+Use jQuery to:
+
+- Change the background color of #colorBox to red when the button is clicked.
+- Change it back to white when double-clicked.
