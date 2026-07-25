@@ -1,0 +1,18 @@
+Exercise 10: Navbars and Navigation
+
+Scenario:
+Create responsive navigation using Bootstrap.
+
+Objective:
+Use Bootstrap navbar and navigation utilities.
+
+Tasks:
+- Create responsive navbar
+- Add:
+  logo
+  navigation links
+  search form
+- Use:
+  nav
+  nav-tabs
+  nav-pills

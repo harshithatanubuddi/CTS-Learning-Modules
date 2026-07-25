@@ -1,0 +1,19 @@
+Exercise 13: Colors and Backgrounds
+
+Scenario:
+Design a colorful dashboard using Bootstrap utilities.
+
+Objective:
+Use Bootstrap contextual colors and backgrounds.
+
+Tasks:
+- Use:
+  bg-primary
+  bg-warning
+  bg-success
+  bg-danger
+- Use text color utilities
+- Use:
+  bg-gradient
+  bg-dark
+  text-white

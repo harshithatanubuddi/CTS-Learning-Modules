@@ -1,0 +1,65 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Sidebar */
+
+.sidebar{
+
+    background-color:#1e3a8a;
+
+    color:white;
+
+    border-radius:15px;
+
+    min-height:100%;
+}
+
+/* Sidebar List */
+
+.sidebar li{
+
+    padding:10px 0;
+
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/* Content Area */
+
+.content-area{
+
+    background-color:white;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Equal Width Cards */
+
+.equal-card{
+
+    background-color:white;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    font-weight:bold;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.equal-card:hover{
+
+    transform:translateY(-5px);
+}

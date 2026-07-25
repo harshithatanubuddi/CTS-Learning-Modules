@@ -1,0 +1,15 @@
+Exercise 8: Forms
+
+Scenario:
+Create registration and login forms using Bootstrap form components.
+
+Objective:
+Use Bootstrap form utilities effectively.
+
+Tasks:
+- Use:
+  form-control
+  form-check
+  input-group
+- Create login form using:
+  form-floating

@@ -1,0 +1,23 @@
+Exercise 19: Bootstrap 5 End-to-End Mini Project
+
+Scenario:
+Create a responsive Community Event Portal using Bootstrap 5.
+
+Objective:
+Apply all major Bootstrap concepts in one project.
+
+Tasks:
+- Create responsive navbar
+- Create hero section
+- Create event cards
+- Create registration form
+- Use:
+  grid system
+  flex utilities
+  spacing utilities
+  colors
+  buttons
+  cards
+  forms
+  icons
+- Ensure responsive design

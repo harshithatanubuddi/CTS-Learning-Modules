@@ -1,0 +1,46 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Dashboard Card */
+
+.dashboard-card{
+
+    padding:35px 20px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+
+    height:100%;
+}
+
+/* Hover Effect */
+
+.dashboard-card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* Gradient Section */
+
+.gradient-section{
+
+    border-radius:20px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.2);
+}
+
+/* Paragraph Styling */
+
+.gradient-section p{
+
+    line-height:1.8;
+}

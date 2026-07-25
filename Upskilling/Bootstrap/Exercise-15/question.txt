@@ -1,0 +1,19 @@
+Exercise 15: Borders, Shadows, and Rounded Corners
+
+Scenario:
+Design stylish cards using Bootstrap utility classes.
+
+Objective:
+Use Bootstrap border, shadow, and rounded utilities.
+
+Tasks:
+- Use:
+  border
+  border-primary
+  border-success
+- Use:
+  rounded
+  rounded-circle
+- Use:
+  shadow
+  shadow-lg

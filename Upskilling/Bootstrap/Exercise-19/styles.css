@@ -1,0 +1,81 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Hero Section */
+
+.hero-section{
+
+    height:90vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)
+    ),
+
+    url("https://picsum.photos/1600/900");
+
+    background-size:cover;
+
+    background-position:center;
+}
+
+/* Event Cards */
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* Registration Section */
+
+.registration-section{
+
+    background-color:#e5e7eb;
+}
+
+/* Form Card */
+
+.form-card{
+
+    background-color:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0px 0px 15px rgba(0,0,0,0.1);
+}
+
+/* Footer Icons */
+
+footer i{
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+/* Icon Hover */
+
+footer i:hover{
+
+    color:#0d6efd;
+}

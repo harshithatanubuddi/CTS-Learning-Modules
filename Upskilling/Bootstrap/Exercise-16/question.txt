@@ -1,0 +1,20 @@
+Exercise 16: Sizing and Spacing Utilities
+
+Scenario:
+Design sections using Bootstrap sizing and spacing utilities.
+
+Objective:
+Use width, height, and spacing utility classes.
+
+Tasks:
+- Use:
+  w-25
+  w-50
+  w-75
+  w-100
+- Use:
+  h-25
+  h-50
+- Use spacing utilities:
+  p-5
+  m-4

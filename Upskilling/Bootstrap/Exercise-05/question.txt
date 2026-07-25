@@ -1,0 +1,14 @@
+Exercise 5: Alignment and Reordering in Grid
+
+Scenario:
+Align and reorder Bootstrap grid columns.
+
+Objective:
+Use alignment and ordering utilities.
+
+Tasks:
+- Use justify-content-center
+- Use align-items-center
+- Reorder columns using:
+  order-md-2
+  order-md-1

@@ -1,0 +1,12 @@
+Exercise 4: Column Layouts and Grid Classes
+
+Scenario:
+Design layouts using Bootstrap grid classes.
+
+Objective:
+Create sidebar and equal-width layouts.
+
+Tasks:
+- Create sidebar using col-md-3
+- Create content area using col-md-9
+- Create 4 equal-width columns using col-sm-3

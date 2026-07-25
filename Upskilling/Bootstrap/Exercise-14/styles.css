@@ -1,0 +1,70 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Sidebar */
+
+.sidebar{
+
+    background-color:#1e3a8a;
+
+    color:white;
+
+    min-height:100vh;
+
+    padding:40px 25px;
+}
+
+/* Sidebar List */
+
+.sidebar li{
+
+    padding:15px 0;
+
+    border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+/* Main Content */
+
+.main-content{
+
+    padding:40px;
+}
+
+/* Info Card */
+
+.info-card{
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Event Card */
+
+.event-card{
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    flex:1;
+
+    margin-bottom:20px;
+}
+
+/* Paragraph Styling */
+
+.event-card p{
+
+    color:#555;
+
+    line-height:1.8;
+}

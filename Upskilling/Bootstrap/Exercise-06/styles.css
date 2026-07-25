@@ -1,0 +1,75 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Navbar Styling */
+
+.navbar-section{
+
+    background-color:#1e3a8a;
+
+    padding:20px 40px;
+}
+
+/* Navigation Links */
+
+.nav-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:10px 15px;
+
+    font-weight:bold;
+}
+
+/* Navigation Hover */
+
+.nav-links a:hover{
+
+    color:#cbd5e1;
+}
+
+/* Card Layout */
+
+.card-layout{
+
+    min-height:300px;
+}
+
+/* Custom Card */
+
+.custom-card{
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    width:100%;
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.custom-card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* Paragraph Styling */
+
+.custom-card p{
+
+    color:#555;
+
+    line-height:1.8;
+}

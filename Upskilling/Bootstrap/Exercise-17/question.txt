@@ -1,0 +1,15 @@
+Exercise 17: Bootstrap Icons
+
+Scenario:
+Create a modern webpage using Bootstrap Icons.
+
+Objective:
+Use Bootstrap Icons library effectively.
+
+Tasks:
+- Include Bootstrap Icons CDN
+- Use icons in:
+  navbar
+  cards
+  buttons
+- Use different icon sizes and colors

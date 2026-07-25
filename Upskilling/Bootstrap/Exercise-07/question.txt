@@ -1,0 +1,18 @@
+Exercise 7: Typography
+
+Scenario:
+Design text content using Bootstrap typography utilities.
+
+Objective:
+Apply Bootstrap typography classes effectively.
+
+Tasks:
+- Use:
+  display-1
+  lead
+  text-muted
+  fw-bold
+- Use:
+  text-uppercase
+  text-lowercase
+  text-capitalize

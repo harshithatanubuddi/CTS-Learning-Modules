@@ -1,0 +1,13 @@
+Exercise 1: Setting Up Bootstrap 5
+
+Scenario:
+Create a basic HTML page and link Bootstrap 5 via CDN.
+
+Objective:
+Configure Bootstrap environment successfully.
+
+Tasks:
+- Create basic HTML structure
+- Link Bootstrap 5 CSS via CDN
+- Link Bootstrap 5 JavaScript bundle
+- Use Bootstrap classes in webpage

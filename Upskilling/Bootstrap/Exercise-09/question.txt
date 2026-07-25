@@ -1,0 +1,16 @@
+Exercise 9: Buttons
+
+Scenario:
+Create different Bootstrap button styles and groups.
+
+Objective:
+Use Bootstrap button utilities effectively.
+
+Tasks:
+- Use:
+  btn-primary
+  btn-secondary
+  btn-outline-*
+- Create button groups using:
+  btn-group
+- Create toggle buttons using checkboxes

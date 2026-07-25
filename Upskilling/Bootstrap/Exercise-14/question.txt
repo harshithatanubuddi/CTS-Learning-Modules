@@ -1,0 +1,15 @@
+Exercise 14: Display and Visibility
+
+Scenario:
+Control visibility of sections on different screen sizes.
+
+Objective:
+Use Bootstrap display utilities effectively.
+
+Tasks:
+- Use:
+  d-none
+  d-md-block
+  d-lg-flex
+- Create responsive sidebar
+- Show sidebar only on tablets and larger screens

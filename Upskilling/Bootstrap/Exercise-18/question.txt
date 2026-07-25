@@ -1,0 +1,17 @@
+Exercise 18: Bootstrap Utilities and Helpers
+
+Scenario:
+Build a utility-rich webpage using Bootstrap helper classes.
+
+Objective:
+Use Bootstrap helper and utility classes effectively.
+
+Tasks:
+- Use:
+  clearfix
+  position-relative
+  position-absolute
+- Use:
+  visually-hidden
+  overflow-auto
+- Create notification badge layout

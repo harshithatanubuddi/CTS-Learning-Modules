@@ -1,0 +1,17 @@
+Exercise 6: Responsive Flexbox Utilities
+
+Scenario:
+Create responsive layouts using Bootstrap flexbox utilities.
+
+Objective:
+Use Bootstrap flex classes for responsive behavior.
+
+Tasks:
+- Create navbar using:
+  d-flex
+  flex-column
+  flex-md-row
+- Use:
+  justify-content-between
+  align-items-center
+- Create responsive card layout

@@ -1,0 +1,47 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Notification Card */
+
+.notification-card{
+
+    background-color:white;
+
+    padding:40px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Overflow Card */
+
+.overflow-card{
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    height:220px;
+}
+
+/* Helper Section */
+
+.helper-section{
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}

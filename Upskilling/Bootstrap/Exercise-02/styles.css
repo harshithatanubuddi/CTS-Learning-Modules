@@ -1,0 +1,22 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Card Styling */
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+}
+
+/* Accordion Styling */
+
+.accordion-button{
+
+    font-weight:bold;
+}

@@ -1,0 +1,15 @@
+Exercise 2: Bootstrap Structure and Files
+
+Scenario:
+Explore Bootstrap files and include Bootstrap JavaScript plugins.
+
+Objective:
+Understand Bootstrap directory structure and JS integration.
+
+Tasks:
+- Identify purpose of:
+  CSS folder
+  JS folder
+  Icons folder
+- Include bootstrap.bundle.min.js
+- Use Bootstrap JavaScript components

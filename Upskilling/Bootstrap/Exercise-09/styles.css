@@ -1,0 +1,33 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Button Section */
+
+.button-section{
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Heading */
+
+.button-section h3{
+
+    color:#1e3a8a;
+}
+
+/* Buttons */
+
+.btn{
+
+    font-weight:bold;
+}

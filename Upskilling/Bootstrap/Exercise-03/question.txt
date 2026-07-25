@@ -1,0 +1,14 @@
+Exercise 3: Fundamentals of Responsive Grid Layout
+
+Scenario:
+Create responsive layouts using Bootstrap grid system.
+
+Objective:
+Understand container, row, and column classes.
+
+Tasks:
+- Create 3 responsive columns
+- Stack vertically on mobile
+- Show 2 columns on tablets
+- Show 3 columns on desktops
+- Use .container, .row, and .col-* classes

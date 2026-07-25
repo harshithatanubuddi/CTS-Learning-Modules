@@ -1,0 +1,42 @@
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+}
+
+/* Card Styling */
+
+.card{
+
+    transition:0.3s;
+
+    border-width:3px !important;
+}
+
+/* Hover Effect */
+
+.card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* Card Paragraph */
+
+.card p{
+
+    color:#555;
+
+    line-height:1.8;
+}
+
+/* Rounded Image */
+
+.rounded-circle{
+
+    width:120px;
+
+    height:120px;
+
+    object-fit:cover;
+}

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Bootstrap Mini Project</title>
+
+    <!-- Bootstrap CSS -->
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- External CSS -->
+
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <div class="container">
+
+            <!-- Logo -->
+
+            <a class="navbar-brand fw-bold"
+               href="#">
+
+                <i class="bi bi-calendar-event-fill me-2">
+
+                </i>
+
+                Community Portal
+
+            </a>
+
+            <!-- Toggle Button -->
+
+            <button class="navbar-toggler"
+
+                    type="button"
+
+                    data-bs-toggle="collapse"
+
+                    data-bs-target="#navbarContent">
+
+                <span class="navbar-toggler-icon">
+
+                </span>
+
+            </button>
+
+            <!-- Navbar Content -->
+
+            <div class="collapse navbar-collapse"
+                 id="navbarContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+
+                        <a class="nav-link active"
+                           href="#">
+
+                            Home
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#events">
+
+                            Events
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#register">
+
+                            Register
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a class="nav-link"
+                           href="#contact">
+
+                            Contact
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section class="hero-section
+                    text-center
+                    text-white
+                    d-flex
+                    align-items-center">
+
+        <div class="container">
+
+            <h1 class="display-3 fw-bold mb-4">
+
+                Welcome to Community Events
+
+            </h1>
+
+            <p class="lead mb-4">
+
+                Discover music festivals,
+                food carnivals,
+                workshops,
+                and exciting community activities.
+
+            </p>
+
+            <button class="btn btn-light btn-lg">
+
+                Explore Events
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Events Section -->
+
+    <section id="events"
+             class="container py-5">
+
+        <!-- Heading -->
+
+        <div class="text-center mb-5">
+
+            <h2 class="text-primary fw-bold">
+
+                Upcoming Events
+
+            </h2>
+
+            <p class="lead text-muted">
+
+                Explore our featured community programs.
+
+            </p>
+
+        </div>
+
+        <!-- Event Cards -->
+
+        <div class="row g-4">
+
+            <!-- Card 1 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-lg h-100">
+
+                    <img
+                    src="https://picsum.photos/500/300?1"
+
+                    class="card-img-top"
+
+                    alt="Music Festival">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-primary">
+
+                            Music Festival
+
+                        </h3>
+
+                        <p class="card-text">
+
+                            Enjoy live performances
+                            and entertainment programs.
+
+                        </p>
+
+                        <button class="btn btn-primary">
+
+                            Book Now
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-lg h-100">
+
+                    <img
+                    src="https://picsum.photos/500/300?2"
+
+                    class="card-img-top"
+
+                    alt="Food Carnival">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-success">
+
+                            Food Carnival
+
+                        </h3>
+
+                        <p class="card-text">
+
+                            Taste delicious cuisines
+                            from different cultures.
+
+                        </p>
+
+                        <button class="btn btn-success">
+
+                            Explore Food
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Card 3 -->
+
+            <div class="col-md-4">
+
+                <div class="card shadow-lg h-100">
+
+                    <img
+                    src="https://picsum.photos/500/300?3"
+
+                    class="card-img-top"
+
+                    alt="Art Workshop">
+
+                    <div class="card-body">
+
+                        <h3 class="card-title text-danger">
+
+                            Art Workshop
+
+                        </h3>
+
+                        <p class="card-text">
+
+                            Participate in creative
+                            workshops and activities.
+
+                        </p>
+
+                        <button class="btn btn-danger">
+
+                            Join Workshop
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Registration Section -->
+
+    <section id="register"
+             class="registration-section py-5">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-7">
+
+                    <div class="form-card">
+
+                        <h2 class="text-center
+                                   text-primary
+                                   mb-4">
+
+                            Event Registration
+
+                        </h2>
+
+                        <!-- Form -->
+
+                        <form>
+
+                            <!-- Name -->
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+
+                                    Full Name
+
+                                </label>
+
+                                <input type="text"
+
+                                       class="form-control"
+
+                                       placeholder="Enter your name">
+
+                            </div>
+
+                            <!-- Email -->
+
+                            <div class="mb-3">
+
+                                <label class="form-label">
+
+                                    Email Address
+
+                                </label>
+
+                                <input type="email"
+
+                                       class="form-control"
+
+                                       placeholder="Enter your email">
+
+                            </div>
+
+                            <!-- Event Selection -->
+
+                            <div class="mb-4">
+
+                                <label class="form-label">
+
+                                    Select Event
+
+                                </label>
+
+                                <select class="form-select">
+
+                                    <option>
+
+                                        Music Festival
+
+                                    </option>
+
+                                    <option>
+
+                                        Food Carnival
+
+                                    </option>
+
+                                    <option>
+
+                                        Art Workshop
+
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                            <!-- Button -->
+
+                            <button class="btn
+                                           btn-primary
+                                           w-100">
+
+                                Register Now
+
+                            </button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="contact"
+            class="bg-dark
+                   text-white
+                   text-center
+                   py-4">
+
+        <div class="container">
+
+            <h4 class="mb-3">
+
+                Community Event Portal
+
+            </h4>
+
+            <p>
+
+                © 2026 Community Event Portal.
+                All Rights Reserved.
+
+            </p>
+
+            <!-- Social Icons -->
+
+            <div>
+
+                <i class="bi bi-facebook fs-3 mx-2">
+
+                </i>
+
+                <i class="bi bi-instagram fs-3 mx-2">
+
+                </i>
+
+                <i class="bi bi-twitter-x fs-3 mx-2">
+
+                </i>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- Bootstrap JS -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>

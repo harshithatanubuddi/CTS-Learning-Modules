@@ -1,0 +1,15 @@
+Exercise 12: Spacing Utilities
+
+Scenario:
+Improve layout using Bootstrap spacing utilities.
+
+Objective:
+Apply margin and padding utilities effectively.
+
+Tasks:
+- Use:
+  m-3
+  mt-4
+  p-2
+  py-5
+- Create pricing section with proper spacing
