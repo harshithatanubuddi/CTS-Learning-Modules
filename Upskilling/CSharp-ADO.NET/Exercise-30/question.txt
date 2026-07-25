@@ -1,0 +1,8 @@
+Write a C# program to Perform CRUD Operations using ADO.NET
+
+Objective:
+Learn how to interact with a database using ADO.NET.
+
+Instructions:
+• Connect to a local SQL Server instance using SqlConnection.
+• Perform basic CRUD operations (Insert, Read, Update, Delete) on an Employees table using ADO.NET classes like SqlCommand, SqlDataReader, and DataAdapter.

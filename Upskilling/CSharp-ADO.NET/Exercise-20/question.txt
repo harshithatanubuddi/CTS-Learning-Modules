@@ -1,0 +1,9 @@
+Write a C# program to Use LINQ for Filtering and Projection
+
+Objective:
+Learn how to use LINQ for querying collections.
+
+Instructions:
+• Create a list of Order objects with properties OrderId, CustomerName, and TotalAmount.
+• Use LINQ to filter orders by price and project selected properties into an anonymous type.
+• Display the results of the LINQ query.

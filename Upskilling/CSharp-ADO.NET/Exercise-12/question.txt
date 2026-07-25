@@ -1,0 +1,9 @@
+Write a C# program to Use Auto-Properties and Backing Fields
+
+Objective:
+Understand the use of auto-properties and backing fields.
+
+Instructions:
+• Create a class Product with auto-implemented properties for Name and Price.
+• Add a backing field for Price and implement validation to ensure it can’t be set to a negative value.
+• Display the property values and demonstrate the validation.

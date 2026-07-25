@@ -1,0 +1,9 @@
+Write a C# program to Use Null-Conditional Chaining in a Contact App
+
+Objective:
+Implement null-conditional chaining to avoid null reference exceptions.
+
+Instructions:
+• Simulate a contact list using a Contact class with properties like Name and PhoneNumber.
+• Safely access a contact’s name using null-conditional chaining (?.) if the contact or name is null.
+• Display the contact’s name only if the object and property are not null.

@@ -1,0 +1,9 @@
+Exercise 2: Explore Value vs Reference Types
+
+Objective:
+Understand the differences between value types and reference types.
+
+Instructions:
+• Define variables using both value types (e.g., int) and reference types (e.g., a custom class).
+• Create methods that attempt to modify these variables.
+• Print the values before and after method calls to illustrate the behavior.

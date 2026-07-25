@@ -1,0 +1,9 @@
+Write a C# program to Demonstrate OOP Basics with Constructors
+
+Objective:
+Implement object-oriented concepts using constructors.
+
+Instructions:
+• Create a Car class with properties for Make, Model, and Year.
+• Implement both a default constructor and a parameterized constructor.
+• Create two objects of the class using both constructors and display their values.

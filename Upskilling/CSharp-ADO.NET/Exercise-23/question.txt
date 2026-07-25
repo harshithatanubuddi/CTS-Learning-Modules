@@ -1,0 +1,8 @@
+Write a C# program to Simulate Async File Upload with Exception Handling
+
+Objective:
+Understand how to work with asynchronous methods and exception handling.
+
+Instructions:
+• Create an asynchronous method that simulates a file upload operation by waiting for 3 seconds.
+• Return a success message after the delay, and use try-catch to handle any exceptions during the upload process.

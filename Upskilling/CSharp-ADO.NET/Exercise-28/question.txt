@@ -1,0 +1,8 @@
+Write a C# program to Log with System.Diagnostics.Trace
+
+Objective:
+Learn how to log messages using Trace.
+
+Instructions:
+• Create a logging class that writes log entries to both the console and a file using Trace.WriteLine.
+• Set up TextWriterTraceListener to output the log messages to a file.

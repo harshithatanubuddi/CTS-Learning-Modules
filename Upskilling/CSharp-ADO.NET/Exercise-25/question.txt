@@ -1,0 +1,8 @@
+Write a C# program to Use FileStream and MemoryStream
+
+Objective:
+Practice reading and writing data using FileStream and MemoryStream.
+
+Instructions:
+• Read text from a file using FileStream and display the content.
+• Write some data to MemoryStream and display the number of bytes written.

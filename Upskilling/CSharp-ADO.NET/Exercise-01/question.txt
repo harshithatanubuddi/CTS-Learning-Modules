@@ -1,0 +1,9 @@
+Exercise 1: Set Up the Development Environment
+
+Objective:
+Set up your C# development environment.
+
+Instructions:
+• Install the latest .NET SDK and Visual Studio or Visual Studio Code.
+• Create a new C# console application.
+• Validate the setup by writing and executing a simple "Hello World" program in Main().

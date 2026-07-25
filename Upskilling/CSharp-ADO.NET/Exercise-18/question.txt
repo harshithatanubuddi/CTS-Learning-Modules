@@ -1,0 +1,8 @@
+Write a C# program to Use the required Modifier in C# 12
+
+Objective:
+Use the required modifier to enforce required properties in a class.
+
+Instructions:
+• Define a class Student with required properties.
+• Instantiate the class and attempt to leave a required property uninitialized to observe the compiler’s behavior.

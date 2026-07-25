@@ -1,0 +1,9 @@
+Write a C# program to Create and Use Records with init Properties
+
+Objective:
+Explore the use of records and init properties in C# 9 and 12.
+
+Instructions:
+• Define an immutable Employee record with init properties.
+• Instantiate the record and attempt to modify its properties using the with expression to create a modified copy.
+• Print the properties to verify that the original record is unchanged.

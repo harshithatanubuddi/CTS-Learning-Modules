@@ -1,0 +1,10 @@
+Write a C# program to Differentiate Abstract Classes and Interfaces
+
+Objective:
+Understand the differences between abstract classes and interfaces.
+
+Instructions:
+• Create an abstract class Vehicle with an abstract method Drive().
+• Create an interface IDrivable with a method Start().
+• Implement both the abstract class and interface in a class Car.
+• Demonstrate polymorphism and method overriding.

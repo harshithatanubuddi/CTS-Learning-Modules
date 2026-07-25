@@ -1,0 +1,9 @@
+Write a C# program to Demonstrate Inheritance and Method Overriding
+
+Objective:
+Learn inheritance and method overriding.
+
+Instructions:
+• Create a base class Shape with a virtual method Draw().
+• Derive Circle and Rectangle classes from Shape, and override the Draw() method.
+• Instantiate objects of both Circle and Rectangle, and call the Draw() method.

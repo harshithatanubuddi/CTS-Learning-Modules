@@ -1,0 +1,9 @@
+Write a C# program to Handle Null References Safely
+
+Objective:
+Safely handle nullable references in C#.
+
+Instructions:
+• Create a class Person with nullable reference types.
+• Use the null-conditional operator (?.) and null-coalescing operator (??) to safely access object members.
+• Demonstrate null checking for nullable references.

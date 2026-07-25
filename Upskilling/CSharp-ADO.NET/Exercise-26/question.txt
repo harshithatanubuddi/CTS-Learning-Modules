@@ -1,0 +1,8 @@
+Write a C# program to Demonstrate Race Conditions with Multi-threading
+
+Objective:
+Learn about race conditions in multi-threaded applications.
+
+Instructions:
+• Create a shared counter variable and spawn multiple threads that increment it.
+• Use the lock statement to manage concurrent access and prevent race conditions.

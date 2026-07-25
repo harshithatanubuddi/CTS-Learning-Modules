@@ -1,0 +1,9 @@
+Exercise 8: Use ref, out, and in Parameters
+
+Objective:
+Understand and demonstrate ref, out, and in parameters.
+
+Instructions:
+• Create three separate methods: one using ref, one using out, and one using in.
+• Observe how each parameter modifier affects the values passed to the method.
+• Print values before and after method calls.

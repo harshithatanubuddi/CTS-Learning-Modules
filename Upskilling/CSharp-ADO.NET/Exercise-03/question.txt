@@ -1,0 +1,9 @@
+Exercise 3: Use Primary Constructors in C# 12
+
+Objective:
+Explore the use of primary constructors in C# 12.
+
+Instructions:
+• Create a Person class using the primary constructor syntax.
+• Instantiate the class and display the person's details using auto-implemented properties.
+• Add a method to display the full information of the person.

@@ -1,0 +1,8 @@
+Write a C# program to Sanitize Input and Prevent XSS
+
+Objective:
+Sanitize user input to prevent XSS attacks.
+
+Instructions:
+• Simulate a user form that accepts input and displays it.
+• Sanitize the input using HTML encoding to prevent any potential script injections.

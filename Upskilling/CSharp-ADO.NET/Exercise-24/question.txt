@@ -1,0 +1,9 @@
+Write a C# program to Serialize and Deserialize JSON Files
+
+Objective:
+Learn to serialize and deserialize objects using JSON.
+
+Instructions:
+• Create a class User with properties like Name, Age, and Email.
+• Serialize the object to a JSON string and save it to a file.
+• Deserialize the JSON back into an object and print its properties.

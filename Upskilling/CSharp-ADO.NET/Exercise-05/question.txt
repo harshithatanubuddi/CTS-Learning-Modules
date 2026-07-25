@@ -1,0 +1,10 @@
+Exercise 5: Perform Conditional Logic for Grade Calculation
+
+Objective:
+Use conditional statements to calculate and display grades.
+
+Instructions:
+• Accept a score from the user.
+• Use if, else if, else to determine the grade.
+• Use switch pattern matching to determine the grade.
+• Display the result.

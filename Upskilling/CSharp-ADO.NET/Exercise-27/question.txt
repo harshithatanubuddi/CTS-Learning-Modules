@@ -1,0 +1,8 @@
+Write a C# program to Simulate and Resolve a Deadlock
+
+Objective:
+Simulate and resolve a deadlock.
+
+Instructions:
+• Create a program with two threads trying to acquire two locks.
+• Simulate a deadlock and then resolve it using Monitor.TryEnter to prevent indefinite waiting.

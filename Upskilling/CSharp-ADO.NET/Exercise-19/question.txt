@@ -1,0 +1,9 @@
+Write a C# program to Work with Lists and Dictionaries
+
+Objective:
+Understand how to work with List<T> and Dictionary<K, V> collections.
+
+Instructions:
+• Create a List<string> and a Dictionary<int, string> and populate them with values.
+• Use foreach loops to iterate over and print the entries.
+• Perform basic operations like adding and removing items.

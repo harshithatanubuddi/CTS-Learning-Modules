@@ -1,0 +1,8 @@
+Write a C# program to Demonstrate Access Modifiers
+
+Objective:
+Understand access modifiers and their visibility.
+
+Instructions:
+• Create a class with public, private, and protected members.
+• Access these members from both a derived class and a non-derived class to demonstrate different access levels.

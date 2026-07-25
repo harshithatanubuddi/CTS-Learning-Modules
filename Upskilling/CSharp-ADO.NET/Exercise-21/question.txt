@@ -1,0 +1,9 @@
+Write a C# program to Use Pattern Matching with is and switch
+
+Objective:
+Explore the power of pattern matching with is and switch.
+
+Instructions:
+• Create a method that accepts an object as a parameter.
+• Use pattern matching with is to check the type of the object and display appropriate information.
+• Use an enhanced switch statement to perform operations based on object types.
