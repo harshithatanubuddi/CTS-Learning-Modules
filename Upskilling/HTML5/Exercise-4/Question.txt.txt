@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+Exercise 4: Image Gallery for Community Events
+
+Scenario:
+Show images from past events in a table layout.
+
+Objective:
+Work with <img>, tables, and formatting tags.
+
+Tasks:
+- Use a table with 2 rows and 3 columns of images
+- Include alt and title attributes
+- Style images with borders using a class
+=======
+Exercise 4: Image Gallery for Community Events
+
+Scenario:
+Show images from past events in a table layout.
+
+Objective:
+Work with <img>, tables, and formatting tags.
+
+Tasks:
+- Use a table with 2 rows and 3 columns of images
+- Include alt and title attributes
+- Style images with borders using a class
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Add captions to describe each event

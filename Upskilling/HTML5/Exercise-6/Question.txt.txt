@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+Exercise 6: Event Feedback with Event Handling
+
+Scenario:
+Collect real-time feedback and interactions from the user.
+
+Objective:
+Handle blur, change, click, double-click, and keyboard events.
+
+Tasks:
+- Use onblur to validate a phone number field
+- Use onchange on a dropdown to display selected event fee
+- Use onclick on submit button to show confirmation
+- Use ondblclick on image to enlarge it
+=======
+Exercise 6: Event Feedback with Event Handling
+
+Scenario:
+Collect real-time feedback and interactions from the user.
+
+Objective:
+Handle blur, change, click, double-click, and keyboard events.
+
+Tasks:
+- Use onblur to validate a phone number field
+- Use onchange on a dropdown to display selected event fee
+- Use onclick on submit button to show confirmation
+- Use ondblclick on image to enlarge it
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Capture keyboard events in textarea and count characters

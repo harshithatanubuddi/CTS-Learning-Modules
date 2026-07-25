@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+Exercise 7: Video Invite with Media Events
+
+Scenario:
+Show a short event promo video.
+
+Objective:
+Work with <video> and media events.
+
+Tasks:
+- Insert a <video> element with source and controls
+- Use oncanplay to display message:
+  "Video ready to play"
+- Use onbeforeunload to warn users
+=======
+Exercise 7: Video Invite with Media Events
+
+Scenario:
+Show a short event promo video.
+
+Objective:
+Work with <video> and media events.
+
+Tasks:
+- Insert a <video> element with source and controls
+- Use oncanplay to display message:
+  "Video ready to play"
+- Use onbeforeunload to warn users
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+  before leaving unfinished page

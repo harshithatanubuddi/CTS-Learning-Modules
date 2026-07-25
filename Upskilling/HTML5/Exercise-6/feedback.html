@@ -1,0 +1,454 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Feedback Form</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 250px;
+            display: block;
+            margin: 25px auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .char-count {
+            margin-top: 8px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Community Event Feedback</h1>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number</label>
+
+        <input type="text"
+               id="phone"
+               placeholder="Enter 10-digit phone number"
+               onblur="validatePhone()">
+
+        <p id="phoneMessage" class="message"></p>
+
+        <!-- Event Selection -->
+        <label for="event">Select Event</label>
+
+        <select id="event" onchange="showFee()">
+            <option value="">Choose Event</option>
+            <option value="100">Music Festival</option>
+            <option value="200">Sports Meet</option>
+            <option value="150">Food Carnival</option>
+            <option value="120">Art Workshop</option>
+        </select>
+
+        <p id="feeMessage" class="message"></p>
+
+        <!-- Feedback -->
+        <label for="feedback">Feedback</label>
+
+        <textarea id="feedback"
+                  rows="5"
+                  placeholder="Enter your feedback"
+                  onkeyup="countCharacters()"></textarea>
+
+        <p id="charCount" class="char-count">
+            Characters: 0
+        </p>
+
+        <!-- Event Image -->
+        <img src="https://picsum.photos/id/1067/400/250"
+             alt="Community Event"
+             ondblclick="enlargeImage(this)"
+             title="Double Click to Enlarge">
+
+        <!-- Submit Button -->
+        <button onclick="submitFeedback()">
+            Submit Feedback
+        </button>
+
+        <p id="submitMessage" class="message"></p>
+
+    </div>
+
+    <script>
+
+        // Phone Validation
+        function validatePhone() {
+
+            let phone =
+                document.getElementById("phone").value;
+
+            let message =
+                document.getElementById("phoneMessage");
+
+            if (phone.length === 10 && !isNaN(phone)) {
+                message.innerHTML = "Valid phone number";
+                message.style.color = "green";
+            }
+            else {
+                message.innerHTML =
+                    "Enter a valid 10-digit phone number";
+                message.style.color = "red";
+            }
+        }
+
+        // Event Fee
+        function showFee() {
+
+            let fee =
+                document.getElementById("event").value;
+
+            let feeMessage =
+                document.getElementById("feeMessage");
+
+            if (fee !== "") {
+                feeMessage.innerHTML =
+                    "Event Fee: ₹" + fee;
+            }
+            else {
+                feeMessage.innerHTML = "";
+            }
+        }
+
+        // Character Counter
+        function countCharacters() {
+
+            let text =
+                document.getElementById("feedback").value;
+
+            document.getElementById("charCount").innerHTML =
+                "Characters: " + text.length;
+        }
+
+        // Image Enlargement
+        function enlargeImage(img) {
+
+            if (img.style.width === "500px") {
+                img.style.width = "250px";
+            }
+            else {
+                img.style.width = "500px";
+            }
+        }
+
+        // Submit Message
+        function submitFeedback() {
+
+            document.getElementById("submitMessage").innerHTML =
+                "Feedback submitted successfully!";
+
+            document.getElementById("submitMessage").style.color =
+                "green";
+        }
+
+    </script>
+
+</body>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Feedback Form</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #1d4ed8;
+        }
+
+        .message {
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        img {
+            width: 250px;
+            display: block;
+            margin: 25px auto;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .char-count {
+            margin-top: 8px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Community Event Feedback</h1>
+
+        <!-- Phone Number -->
+        <label for="phone">Phone Number</label>
+
+        <input type="text"
+               id="phone"
+               placeholder="Enter 10-digit phone number"
+               onblur="validatePhone()">
+
+        <p id="phoneMessage" class="message"></p>
+
+        <!-- Event Selection -->
+        <label for="event">Select Event</label>
+
+        <select id="event" onchange="showFee()">
+            <option value="">Choose Event</option>
+            <option value="100">Music Festival</option>
+            <option value="200">Sports Meet</option>
+            <option value="150">Food Carnival</option>
+            <option value="120">Art Workshop</option>
+        </select>
+
+        <p id="feeMessage" class="message"></p>
+
+        <!-- Feedback -->
+        <label for="feedback">Feedback</label>
+
+        <textarea id="feedback"
+                  rows="5"
+                  placeholder="Enter your feedback"
+                  onkeyup="countCharacters()"></textarea>
+
+        <p id="charCount" class="char-count">
+            Characters: 0
+        </p>
+
+        <!-- Event Image -->
+        <img src="https://picsum.photos/id/1067/400/250"
+             alt="Community Event"
+             ondblclick="enlargeImage(this)"
+             title="Double Click to Enlarge">
+
+        <!-- Submit Button -->
+        <button onclick="submitFeedback()">
+            Submit Feedback
+        </button>
+
+        <p id="submitMessage" class="message"></p>
+
+    </div>
+
+    <script>
+
+        // Phone Validation
+        function validatePhone() {
+
+            let phone =
+                document.getElementById("phone").value;
+
+            let message =
+                document.getElementById("phoneMessage");
+
+            if (phone.length === 10 && !isNaN(phone)) {
+                message.innerHTML = "Valid phone number";
+                message.style.color = "green";
+            }
+            else {
+                message.innerHTML =
+                    "Enter a valid 10-digit phone number";
+                message.style.color = "red";
+            }
+        }
+
+        // Event Fee
+        function showFee() {
+
+            let fee =
+                document.getElementById("event").value;
+
+            let feeMessage =
+                document.getElementById("feeMessage");
+
+            if (fee !== "") {
+                feeMessage.innerHTML =
+                    "Event Fee: ₹" + fee;
+            }
+            else {
+                feeMessage.innerHTML = "";
+            }
+        }
+
+        // Character Counter
+        function countCharacters() {
+
+            let text =
+                document.getElementById("feedback").value;
+
+            document.getElementById("charCount").innerHTML =
+                "Characters: " + text.length;
+        }
+
+        // Image Enlargement
+        function enlargeImage(img) {
+
+            if (img.style.width === "500px") {
+                img.style.width = "250px";
+            }
+            else {
+                img.style.width = "500px";
+            }
+        }
+
+        // Submit Message
+        function submitFeedback() {
+
+            document.getElementById("submitMessage").innerHTML =
+                "Feedback submitted successfully!";
+
+            document.getElementById("submitMessage").style.color =
+                "green";
+        }
+
+    </script>
+
+</body>
+
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+</html>

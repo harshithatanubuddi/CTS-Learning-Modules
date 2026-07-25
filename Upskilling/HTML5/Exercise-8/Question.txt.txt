@@ -1,0 +1,28 @@
+<<<<<<< HEAD
+Exercise 8: Saving User Preferences
+
+Scenario:
+Store preferred event type for returning users.
+
+Objective:
+Work with localStorage, sessionStorage, and deletion.
+
+Tasks:
+- Save selected event type in localStorage
+- Retrieve and pre-select value on reload
+- Add "Clear Preferences" button
+=======
+Exercise 8: Saving User Preferences
+
+Scenario:
+Store preferred event type for returning users.
+
+Objective:
+Work with localStorage, sessionStorage, and deletion.
+
+Tasks:
+- Save selected event type in localStorage
+- Retrieve and pre-select value on reload
+- Add "Clear Preferences" button
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Clear both localStorage and sessionStorage

@@ -1,0 +1,206 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Video Invite</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 10px;
+            border: 4px solid #2563eb;
+        }
+
+        #videoMessage {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Community Event Promo</h1>
+
+        <p>
+            Watch the short promotional video for upcoming
+            community celebrations and activities.
+        </p>
+
+        <!-- Video Section -->
+        <video controls oncanplay="videoReady()">
+
+            <source src="promo.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+
+        </video>
+
+        <!-- Message -->
+        <p id="videoMessage"></p>
+
+    </div>
+
+    <script>
+
+        // Video Ready Message
+        function videoReady() {
+
+            document.getElementById("videoMessage").innerHTML =
+                "Video ready to play!";
+        }
+
+        // Warning Before Leaving Page
+        window.onbeforeunload = function () {
+
+            return "Your form is not completed. Are you sure you want to leave?";
+        };
+
+    </script>
+
+</body>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Video Invite</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #1e3a8a;
+            margin-bottom: 20px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        video {
+            width: 100%;
+            border-radius: 10px;
+            border: 4px solid #2563eb;
+        }
+
+        #videoMessage {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Community Event Promo</h1>
+
+        <p>
+            Watch the short promotional video for upcoming
+            community celebrations and activities.
+        </p>
+
+        <!-- Video Section -->
+        <video controls oncanplay="videoReady()">
+
+            <source src="promo.mp4" type="video/mp4">
+
+            Your browser does not support the video tag.
+
+        </video>
+
+        <!-- Message -->
+        <p id="videoMessage"></p>
+
+    </div>
+
+    <script>
+
+        // Video Ready Message
+        function videoReady() {
+
+            document.getElementById("videoMessage").innerHTML =
+                "Video ready to play!";
+        }
+
+        // Warning Before Leaving Page
+        window.onbeforeunload = function () {
+
+            return "Your form is not completed. Are you sure you want to leave?";
+        };
+
+    </script>
+
+</body>
+
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+</html>

@@ -1,0 +1,26 @@
+<<<<<<< HEAD
+Exercise 2: Navigation and Linking
+
+Scenario:
+Users should navigate between "Home", "Events", and "Contact" sections.
+
+Objective:
+Provide intuitive navigation and section-based references.
+
+Tasks:
+- Use <nav> with anchor tags
+- Define matching IDs for each section
+=======
+Exercise 2: Navigation and Linking
+
+Scenario:
+Users should navigate between "Home", "Events", and "Contact" sections.
+
+Objective:
+Provide intuitive navigation and section-based references.
+
+Tasks:
+- Use <nav> with anchor tags
+- Define matching IDs for each section
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Add a link to an external help document using target="_blank"

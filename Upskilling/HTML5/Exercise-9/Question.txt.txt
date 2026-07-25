@@ -1,0 +1,32 @@
+<<<<<<< HEAD
+Exercise 9: Geolocation for Event Mapping
+
+Scenario:
+Locate the nearest event to the user.
+
+Objective:
+Practice geolocation.getCurrentPosition,
+error handling, and options.
+
+Tasks:
+- Create button "Find Nearby Events"
+- Use getCurrentPosition()
+- Display latitude and longitude
+- Handle permission denial and timeout
+=======
+Exercise 9: Geolocation for Event Mapping
+
+Scenario:
+Locate the nearest event to the user.
+
+Objective:
+Practice geolocation.getCurrentPosition,
+error handling, and options.
+
+Tasks:
+- Create button "Find Nearby Events"
+- Use getCurrentPosition()
+- Display latitude and longitude
+- Handle permission denial and timeout
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Use high accuracy options

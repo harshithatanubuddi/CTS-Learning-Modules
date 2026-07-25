@@ -1,0 +1,13 @@
+Exercise 10: Debugging with Chrome DevTools
+
+Scenario:
+Users report layout issues and script errors.
+
+Objective:
+Use Chrome DevTools and VS Code features to debug.
+
+Tasks:
+- Use Inspect Element to modify styles
+- Use Console tab to view logs
+- Add breakpoints in JavaScript
+- Reload page and inspect variable values

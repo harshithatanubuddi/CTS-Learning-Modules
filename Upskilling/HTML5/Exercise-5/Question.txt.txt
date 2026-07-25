@@ -1,0 +1,38 @@
+<<<<<<< HEAD
+Exercise 5: Event Registration Form
+
+Scenario:
+Residents need to register for events.
+
+Objective:
+Practice input types, validation, placeholder, autofocus, and output.
+
+Tasks:
+- Include fields:
+  - Name
+  - Email
+  - Date
+  - Event Type
+  - Message
+- Add placeholder, required, and autofocus
+- Display confirmation message using <output>
+=======
+Exercise 5: Event Registration Form
+
+Scenario:
+Residents need to register for events.
+
+Objective:
+Practice input types, validation, placeholder, autofocus, and output.
+
+Tasks:
+- Include fields:
+  - Name
+  - Email
+  - Date
+  - Event Type
+  - Message
+- Add placeholder, required, and autofocus
+- Display confirmation message using <output>
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+- Style the form using CSS

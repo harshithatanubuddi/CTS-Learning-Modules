@@ -1,0 +1,386 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving User Preferences</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .save-btn {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .clear-btn {
+            background-color: #dc2626;
+            color: white;
+        }
+
+        #message {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Event Preference Settings</h1>
+
+        <!-- Event Selection -->
+        <label for="eventType">
+            Select Preferred Event
+        </label>
+
+        <select id="eventType">
+
+            <option value="">Choose Event</option>
+
+            <option value="Music Festival">
+                Music Festival
+            </option>
+
+            <option value="Sports Meet">
+                Sports Meet
+            </option>
+
+            <option value="Food Carnival">
+                Food Carnival
+            </option>
+
+            <option value="Art Workshop">
+                Art Workshop
+            </option>
+
+        </select>
+
+        <!-- Save Button -->
+        <button class="save-btn" onclick="savePreference()">
+            Save Preference
+        </button>
+
+        <!-- Clear Button -->
+        <button class="clear-btn" onclick="clearPreferences()">
+            Clear Preferences
+        </button>
+
+        <!-- Message -->
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+
+        // Load saved preference when page reloads
+        window.onload = function () {
+
+            let savedEvent =
+                localStorage.getItem("preferredEvent");
+
+            if (savedEvent) {
+
+                document.getElementById("eventType").value =
+                    savedEvent;
+
+                document.getElementById("message").innerHTML =
+                    "Loaded saved preference: " + savedEvent;
+            }
+        };
+
+        // Save preference
+        function savePreference() {
+
+            let selectedEvent =
+                document.getElementById("eventType").value;
+
+            if (selectedEvent === "") {
+
+                alert("Please select an event.");
+
+                return;
+            }
+
+            // Save in localStorage
+            localStorage.setItem(
+                "preferredEvent",
+                selectedEvent
+            );
+
+            // Save temporary session
+            sessionStorage.setItem(
+                "sessionEvent",
+                selectedEvent
+            );
+
+            document.getElementById("message").innerHTML =
+                "Preference saved successfully!";
+        }
+
+        // Clear storage
+        function clearPreferences() {
+
+            localStorage.clear();
+
+            sessionStorage.clear();
+
+            document.getElementById("eventType").value = "";
+
+            document.getElementById("message").innerHTML =
+                "Preferences cleared successfully!";
+        }
+
+    </script>
+
+</body>
+
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saving User Preferences</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0px 0px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3a8a;
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            font-size: 17px;
+            cursor: pointer;
+        }
+
+        .save-btn {
+            background-color: #2563eb;
+            color: white;
+        }
+
+        .clear-btn {
+            background-color: #dc2626;
+            color: white;
+        }
+
+        #message {
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Event Preference Settings</h1>
+
+        <!-- Event Selection -->
+        <label for="eventType">
+            Select Preferred Event
+        </label>
+
+        <select id="eventType">
+
+            <option value="">Choose Event</option>
+
+            <option value="Music Festival">
+                Music Festival
+            </option>
+
+            <option value="Sports Meet">
+                Sports Meet
+            </option>
+
+            <option value="Food Carnival">
+                Food Carnival
+            </option>
+
+            <option value="Art Workshop">
+                Art Workshop
+            </option>
+
+        </select>
+
+        <!-- Save Button -->
+        <button class="save-btn" onclick="savePreference()">
+            Save Preference
+        </button>
+
+        <!-- Clear Button -->
+        <button class="clear-btn" onclick="clearPreferences()">
+            Clear Preferences
+        </button>
+
+        <!-- Message -->
+        <p id="message"></p>
+
+    </div>
+
+    <script>
+
+        // Load saved preference when page reloads
+        window.onload = function () {
+
+            let savedEvent =
+                localStorage.getItem("preferredEvent");
+
+            if (savedEvent) {
+
+                document.getElementById("eventType").value =
+                    savedEvent;
+
+                document.getElementById("message").innerHTML =
+                    "Loaded saved preference: " + savedEvent;
+            }
+        };
+
+        // Save preference
+        function savePreference() {
+
+            let selectedEvent =
+                document.getElementById("eventType").value;
+
+            if (selectedEvent === "") {
+
+                alert("Please select an event.");
+
+                return;
+            }
+
+            // Save in localStorage
+            localStorage.setItem(
+                "preferredEvent",
+                selectedEvent
+            );
+
+            // Save temporary session
+            sessionStorage.setItem(
+                "sessionEvent",
+                selectedEvent
+            );
+
+            document.getElementById("message").innerHTML =
+                "Preference saved successfully!";
+        }
+
+        // Clear storage
+        function clearPreferences() {
+
+            localStorage.clear();
+
+            sessionStorage.clear();
+
+            document.getElementById("eventType").value = "";
+
+            document.getElementById("message").innerHTML =
+                "Preferences cleared successfully!";
+        }
+
+    </script>
+
+</body>
+
+>>>>>>> 37dd037a880b8fcd160afb67626a7c45c573a21f
+</html>
