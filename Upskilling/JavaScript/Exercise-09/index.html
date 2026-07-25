@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Async JS Promises Async Await</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet"
+          href="styles.css">
+
+</head>
+
+<body>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <h1>
+            Community Events API
+        </h1>
+
+        <!-- Buttons -->
+        <div class="button-group">
+
+            <button onclick="fetchWithPromises()">
+
+                Fetch using Promises
+
+            </button>
+
+            <button onclick="fetchWithAsyncAwait()">
+
+                Fetch using Async/Await
+
+            </button>
+
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loading">
+
+            Loading Events...
+
+        </div>
+
+        <!-- Event Container -->
+        <div id="eventContainer">
+
+        </div>
+
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>

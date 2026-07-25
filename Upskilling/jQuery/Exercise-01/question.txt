@@ -1,0 +1,10 @@
+Exercise 1: Adding jQuery to a Page
+
+Task:
+1. Include jQuery using a CDN link.
+2. Include jQuery using a locally downloaded copy.
+3. Add a <p> element that says "Hello World!".
+4. Log the paragraph text to the console using jQuery.
+
+Bonus:
+Display the paragraph text using jQuery and verify it in the browser console.

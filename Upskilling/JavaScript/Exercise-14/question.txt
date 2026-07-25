@@ -1,0 +1,12 @@
+Exercise 14: jQuery and JS Frameworks
+
+Scenario:
+Use jQuery to simplify DOM tasks.
+
+Objective:
+Understand and use jQuery.
+
+Tasks:
+- Use $('#registerBtn').click(...)
+- Use .fadeIn() and .fadeOut()
+- Mention one benefit of React or Vue

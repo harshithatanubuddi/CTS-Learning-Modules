@@ -1,0 +1,12 @@
+Exercise 12: AJAX & Fetch API
+
+Scenario:
+Send user registration to the server.
+
+Objective:
+Simulate backend communication.
+
+Tasks:
+- Use fetch() to POST user data
+- Show success/failure messages
+- Use setTimeout() to simulate delay

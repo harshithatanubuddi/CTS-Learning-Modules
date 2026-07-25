@@ -1,0 +1,20 @@
+Exercise 6: Mouse and Keyboard Events
+
+Task:
+
+Create a div with some text.
+
+Use the following event helpers:
+
+- .click()
+- .dblclick()
+- .mouseenter()
+- .mouseleave()
+- .keypress()
+
+Make each event do something visible:
+
+- Change background color
+- Change text
+- Display typed characters
+- Show messages

@@ -1,0 +1,14 @@
+Exercise 2: Selecting Elements
+
+Task:
+
+Create a webpage with:
+- 1 <h1>
+- 2 <p>
+- 1 <button>
+
+Use $(document).ready() to ensure the DOM is loaded.
+
+Use the $() function to:
+- Change the text of the <h1>
+- Hide one of the <p> elements when the button is clicked

@@ -1,0 +1,14 @@
+Exercise 2: Syntax, Data Types, and Operators
+
+Scenario:
+Store event details like name, date,
+and available seats.
+
+Objective:
+Use proper data types and operations.s
+
+Tasks:
+- Use const for event name and date
+- Use let for seats
+- Concatenate event info using template literals
+- Use ++ or -- to manage seat count

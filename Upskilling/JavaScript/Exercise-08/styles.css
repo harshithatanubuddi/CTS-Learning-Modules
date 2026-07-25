@@ -1,0 +1,128 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+
+    padding:40px;
+}
+
+/* Main Container */
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+}
+
+/* Heading */
+
+h1{
+
+    text-align:center;
+
+    color:#1e3a8a;
+
+    margin-bottom:30px;
+}
+
+/* Search Input */
+
+#searchInput{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:20px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+}
+
+/* Dropdown */
+
+#categoryFilter{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:30px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+}
+
+/* Event Card */
+
+.event-card{
+
+    background-color:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    margin-bottom:20px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Event Title */
+
+.event-card h2{
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+}
+
+/* Paragraph Styling */
+
+.event-card p{
+
+    color:#444;
+
+    margin-bottom:10px;
+
+    line-height:1.7;
+}
+
+/* Button Styling */
+
+button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background-color:#16a34a;
+
+    color:white;
+
+    cursor:pointer;
+}
+
+button:hover{
+
+    background-color:#15803d;
+}

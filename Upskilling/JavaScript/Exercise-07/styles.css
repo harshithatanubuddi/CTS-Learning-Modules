@@ -1,0 +1,122 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+
+    padding:40px;
+}
+
+/* Main Container */
+
+.container{
+
+    max-width:1000px;
+
+    margin:auto;
+}
+
+/* Main Heading */
+
+h1{
+
+    text-align:center;
+
+    color:#1e3a8a;
+
+    margin-bottom:30px;
+}
+
+/* Event Container */
+
+.event-container{
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit, minmax(280px, 1fr));
+
+    gap:20px;
+}
+
+/* Event Card */
+
+.event-card{
+
+    background-color:white;
+
+    padding:25px;
+
+    border-radius:12px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    transition:0.3s;
+}
+
+/* Hover Effect */
+
+.event-card:hover{
+
+    transform:translateY(-5px);
+}
+
+/* Event Heading */
+
+.event-card h2{
+
+    color:#2563eb;
+
+    margin-bottom:15px;
+}
+
+/* Paragraph Styling */
+
+.event-card p{
+
+    color:#444;
+
+    line-height:1.7;
+
+    margin-bottom:12px;
+}
+
+/* Button Styling */
+
+button{
+
+    padding:10px 18px;
+
+    border:none;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    color:white;
+
+    margin-right:10px;
+}
+
+/* Register Button */
+
+.register-btn{
+
+    background-color:#16a34a;
+}
+
+/* Cancel Button */
+
+.cancel-btn{
+
+    background-color:#dc2626;
+}

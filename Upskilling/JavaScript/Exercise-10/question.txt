@@ -1,0 +1,13 @@
+Exercise 10: Modern JavaScript Features
+
+Scenario:
+Refactor code to be concise and maintainable.
+
+Objective:
+Use ES6+ features.
+
+Tasks:
+- Use let and const
+- Use default parameters in functions
+- Use destructuring
+- Use spread operator

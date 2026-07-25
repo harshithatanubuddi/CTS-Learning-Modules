@@ -1,0 +1,19 @@
+Exercise 4: Creating and Modifying Elements
+
+Task:
+
+Create a form with:
+- Input field
+- Submit button
+
+When the button is clicked:
+
+- Take the value from the input
+- Create a new <li>
+- Append it to a <ul>
+
+Add a:
+
+- Remove All button
+
+that empties the entire list.

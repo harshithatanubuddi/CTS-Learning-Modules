@@ -1,0 +1,12 @@
+Exercise 7: DOM Manipulation
+
+Scenario:
+Display all events dynamically on the webpage.
+
+Objective:
+Render events using JavaScript.
+
+Tasks:
+- Access DOM elements using querySelector()
+- Create and append event cards using createElement()
+- Update UI when user registers or cancels

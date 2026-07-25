@@ -1,0 +1,23 @@
+Exercise 3: Use of Common Methods
+
+Task:
+
+Add 3 div elements with class .box
+
+Use the following jQuery methods:
+
+- .hide()
+- .show()
+- .fadeOut()
+- .fadeIn()
+- .toggle()
+
+Apply these methods when clicking respective buttons.
+
+Bonus:
+
+Chain methods like:
+
+.slideUp()
+.delay(1000)
+.slideDown()

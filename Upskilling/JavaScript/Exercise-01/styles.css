@@ -1,0 +1,84 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+
+    background-color:#f4f4f4;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+}
+
+/* Main Container */
+
+.container{
+
+    background-color:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+
+    width:80%;
+}
+
+/* Heading Styling */
+
+h1{
+
+    color:#1e3a8a;
+
+    margin-bottom:20px;
+}
+
+/* Paragraph Styling */
+
+p{
+
+    color:#444;
+
+    line-height:1.7;
+
+    margin-bottom:25px;
+}
+
+/* Button Styling */
+
+button{
+
+    padding:12px 24px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background-color:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+}
+
+button:hover{
+
+    background-color:#1d4ed8;
+}

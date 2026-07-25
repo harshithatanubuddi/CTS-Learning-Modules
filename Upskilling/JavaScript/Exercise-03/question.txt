@@ -1,0 +1,12 @@
+Exercise 3: Conditionals, Loops, and Error Handling
+
+Scenario:
+Only show valid events and limit registrations.
+
+Objective:
+Apply conditions and handle invalid data.
+
+Tasks:
+- Use if-else to hide past or full events
+- Use forEach() to display events
+- Use try-catch for registration errors
