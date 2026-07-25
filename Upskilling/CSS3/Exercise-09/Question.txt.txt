@@ -1,0 +1,14 @@
+Exercise 9: Multiple Columns in Text
+
+Scenario:
+The community bulletin needs to be displayed
+like a newspaper.
+
+Objective:
+Use CSS3 multi-column layout.
+
+Tasks:
+- Apply:
+  column-count: 2
+  column-gap: 30px
+  column-rule: 1px solid gray

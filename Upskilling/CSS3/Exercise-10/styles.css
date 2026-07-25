@@ -1,0 +1,228 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+    background-color:#f4f4f4;
+}
+
+/* Navigation Bar */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background-color:#1e3a8a;
+
+    padding:2vh 5vw;
+
+    color:white;
+}
+
+/* Logo */
+
+.logo{
+
+    font-size:2vw;
+
+    font-weight:bold;
+}
+
+/* Navigation Links */
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+}
+
+/* Navigation Items */
+
+.nav-links li{
+
+    margin-left:2vw;
+}
+
+/* Navigation Links */
+
+.nav-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:1.2vw;
+}
+
+/* Hero Section */
+
+.hero{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:5vh 5vw;
+
+    min-height:80vh;
+}
+
+/* Hero Content */
+
+.hero-content{
+
+    width:50%;
+}
+
+/* Hero Heading */
+
+.hero-content h1{
+
+    font-size:4vw;
+
+    color:#1e3a8a;
+
+    margin-bottom:20px;
+}
+
+/* Hero Paragraph */
+
+.hero-content p{
+
+    font-size:1.3vw;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+    color:#444;
+}
+
+/* Button Styling */
+
+button{
+
+    padding:14px 24px;
+
+    border:none;
+
+    border-radius:6px;
+
+    background-color:#2563eb;
+
+    color:white;
+
+    font-size:1.1vw;
+
+    cursor:pointer;
+}
+
+/* Hero Image */
+
+.hero-image{
+
+    width:45%;
+}
+
+/* Image Styling */
+
+.hero-image img{
+
+    width:100%;
+
+    border-radius:12px;
+}
+
+/* Responsive Media Query */
+
+@media screen and (max-width:768px){
+
+    /* Navigation Layout */
+
+    .navbar{
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    /* Navigation Links */
+
+    .nav-links{
+
+        flex-direction:column;
+
+        margin-top:15px;
+    }
+
+    .nav-links li{
+
+        margin:10px 0;
+    }
+
+    /* Hero Layout */
+
+    .hero{
+
+        flex-direction:column;
+
+        text-align:center;
+    }
+
+    /* Hero Content */
+
+    .hero-content{
+
+        width:100%;
+    }
+
+    /* Hero Image */
+
+    .hero-image{
+
+        width:90%;
+
+        margin-top:30px;
+    }
+
+    /* Smaller Font Sizes */
+
+    .hero-content h1{
+
+        font-size:8vw;
+    }
+
+    .hero-content p{
+
+        font-size:4vw;
+    }
+
+    button{
+
+        font-size:4vw;
+    }
+
+    .logo{
+
+        font-size:6vw;
+    }
+
+    .nav-links a{
+
+        font-size:4vw;
+    }
+}

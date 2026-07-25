@@ -1,0 +1,18 @@
+Exercise 6: Link and List Styling
+
+Scenario:
+The default blue links and bullet lists
+don’t match the portal design.
+
+Objective:
+Customize links and lists.
+
+Tasks:
+- Style links using:
+  :link
+  :hover
+  :active
+  :visited
+- Use list-style-type
+- Remove bullets from navigation menus
+- Add spacing using padding and margin

@@ -1,0 +1,14 @@
+Exercise 8: Box Model & Layout Control
+
+Scenario:
+Sections are cramped and need spacing.
+
+Objective:
+Control spacing using margin, padding,
+border, outline, and visibility properties.
+
+Tasks:
+- Add border, padding, and margin to .eventCard
+- Add outline to selected form fields
+- Compare visibility:hidden and display:none
+- Use DevTools to inspect box model

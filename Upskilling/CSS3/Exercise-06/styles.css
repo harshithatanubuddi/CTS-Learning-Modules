@@ -1,0 +1,139 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body{
+    background-color:#f4f4f4;
+}
+
+/* Navigation Bar */
+
+.navbar{
+
+    background-color:#1e3a8a;
+
+    padding:20px;
+}
+
+/* Navigation List */
+
+.nav-list{
+
+    list-style-type:none;
+
+    display:flex;
+
+    justify-content:center;
+}
+
+/* Navigation List Items */
+
+.nav-list li{
+
+    margin:0 20px;
+}
+
+/* Navigation Links */
+
+.nav-list a:link{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-size:18px;
+}
+
+/* Hover Effect */
+
+.nav-list a:hover{
+
+    color:yellow;
+}
+
+/* Active Link */
+
+.nav-list a:active{
+
+    color:red;
+}
+
+/* Visited Link */
+
+.nav-list a:visited{
+
+    color:#cbd5e1;
+}
+
+/* Main Container */
+
+.container{
+
+    max-width:800px;
+
+    margin:40px auto;
+
+    background-color:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading Styling */
+
+h1{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+}
+
+/* Event List */
+
+.event-list{
+
+    list-style-type:square;
+
+    list-style-position:inside;
+
+    margin-bottom:30px;
+}
+
+/* Event List Items */
+
+.event-list li{
+
+    padding:10px;
+
+    margin-bottom:10px;
+
+    background-color:#eff6ff;
+
+    border-radius:6px;
+}
+
+/* Links Section */
+
+.links-section h2{
+
+    margin-bottom:15px;
+
+    color:#1e3a8a;
+}
+
+/* Section Links */
+
+.links-section a{
+
+    font-size:18px;
+}

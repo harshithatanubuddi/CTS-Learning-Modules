@@ -1,0 +1,14 @@
+Exercise 7: Table Styling
+
+Scenario:
+The events admin table needs a cleaner look.
+
+Objective:
+Format tables using CSS.
+
+Tasks:
+- Style table, th, and td
+- Add borders, padding, and background colors
+- Add zebra striping using nth-child(even)
+- Use border-collapse: collapse
+- Use text-align: center

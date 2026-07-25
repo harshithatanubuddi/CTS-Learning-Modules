@@ -1,0 +1,12 @@
+Exercise 2: CSS Syntax and Comments
+
+Scenario:
+You’ve joined a team and need to understand and maintain a large stylesheet.
+
+Objective:
+Write clean, readable CSS with proper structure and comments.
+
+Tasks:
+- Create formatted CSS rules with proper indentation
+- Add descriptive comments above selectors
+- Style buttons and sections professionally

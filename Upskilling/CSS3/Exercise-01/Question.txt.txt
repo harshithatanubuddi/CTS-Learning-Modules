@@ -1,0 +1,13 @@
+Exercise 1: Why CSS? Inline vs Internal vs External
+
+Scenario:
+The designer wants you to experiment with different ways to apply styles.
+
+Objective:
+Understand various CSS inclusion methods and their impact.
+
+Tasks:
+- Apply inline style to make one heading red
+- Use internal CSS for body background
+- Link external stylesheet styles.css
+- Add comments in CSS sections

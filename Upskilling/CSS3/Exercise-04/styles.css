@@ -1,0 +1,114 @@
+/* Universal Styling */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+/* Body Styling with Background Image */
+
+body{
+
+    background-color:#dbeafe;
+
+    background-image:
+    url("https://picsum.photos/1600/900");
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-attachment:fixed;
+
+    padding:40px;
+}
+
+/* Main Header */
+
+.main-header{
+
+    background:linear-gradient(
+        to right,
+        #1e3a8a,
+        #2563eb
+    );
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+
+    border-radius:12px;
+
+    margin-bottom:30px;
+}
+
+/* Main Container */
+
+.container{
+
+    max-width:900px;
+
+    margin:auto;
+}
+
+/* Event Section */
+
+.event-section{
+
+    background-color:rgba(255,255,255,0.9);
+
+    padding:30px;
+
+    border-radius:12px;
+
+    margin-bottom:25px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Info Section */
+
+.info-section{
+
+    background-color:rgba(240,249,255,0.9);
+
+    padding:30px;
+
+    border-radius:12px;
+
+    box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+
+/* Gradient Section Headers */
+
+h2{
+
+    background:linear-gradient(
+        to right,
+        #2563eb,
+        #60a5fa
+    );
+
+    color:white;
+
+    padding:12px;
+
+    border-radius:6px;
+
+    margin-bottom:20px;
+}
+
+/* Paragraph Styling */
+
+p{
+
+    color:#333;
+
+    line-height:1.8;
+
+    font-size:17px;
+}

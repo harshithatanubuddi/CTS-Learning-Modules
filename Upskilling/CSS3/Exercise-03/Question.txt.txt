@@ -1,0 +1,15 @@
+Exercise 3: Selectors Playground
+
+Scenario:
+You need to style various elements based on IDs,
+classes, and element types.
+
+Objective:
+Master different selector types.
+
+Tasks:
+- Use universal selector *
+- Use element selector for h2
+- Use ID selector #mainHeader
+- Use class selector .eventCard
+- Use grouping selector for h3 and p
